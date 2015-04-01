@@ -5,9 +5,38 @@
     <title>JavaScript Module Training</title>
 </head>
 <body>
-    <h1>Welcome to the JavaScript Module Training</h1>
+    <h1>Keep <span class="bad">ME</span> blinking!</h1>
+    <h2>What's wrong with the script /src/blink.bad.js?</h2>
+    <ul>
+        <li>global use?</li>
+        <li>does it create globals?</li>
+        <li>is it reusable?</li>
+        <li>is it testable? (we aren't testing yet, but you should think about it in your design)</li>
+    </ul>
 
+    <h2>Feature Request:</h2>
+    <ul>
+        <li>Have the script blink the elements with a 'bad' class for 3 seconds, and then stop (make sure it is visible!)</li>
+        <li>Hint: start it blinking, use setTimeout(function(){/* your code here to turn off blinking */}, 3000);</li>
+    </ul>
+
+    <h2>Use the Module Pattern:</h2>
+    <ul>
+        <li>
+            Use the article <a href="http://www.adequatelygood.com/JavaScript-Module-Pattern-In-Depth.html">JavaScript Module Pattern: In-Depth</a>
+        </li>
+        <li>All scripts should have Global Imports</li>
+        <li>All scripts should have Module Exports</li>
+        <li>You will still have to load all the scripts with HTML script tags.</li>
+    </ul>
+    <h2>Apply SRP (Single Responsibility Principle):</h2>
+    <ul>
+        <li>The current script has lots of issues</li>
+        <li>split the single script up into multiple, reusable scripts with one </li>
+        <li>apply SRP (from SOLID) split the single script into multiple scripts each with a Single Responsibility</li>
+    </ul>
+    <h1>MAKE <span class="bad">IT</span> SO!</h1>
     <script src="/assets/jquery-1.9.1.js"></script>
-    <script src="/assets/require.js"></script>
+    <script src="/src/blink.bad.js"></script>
 </body>
 </html>
