@@ -3,11 +3,16 @@ Training repository for teaching about js modules, loaders, AMD, requirejs, etc.
 
 ## Setup/build
 
-1. Install your npm package(s):
+1. clone the repo:
+
+    git clone https://github.com/joshball/training_amd.git
+    
+
+2. Install your npm package(s):
     
     npm install
     
-2. Run the server 
+3. Run the server 
     
    node server
    
